@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    
+        .container{
+            height: 400px;
+            display: grid;
+            grid-template-columns: 1fr,2fr,3fr;
+            grid-template-areas: "one one one"    
+                               "two three four" 
+                                "five five five";   
+        }
+
+         
+        
+        .div{
+            background-color: green;
+            grid-area: one;
+
+        }
+        .div1{
+            background-color: maroon;
+           grid-area: two;
+
+        }
+        .div2{
+            background-color: yellow;
+            
+            grid-area:three;
+
+
+
+        }
+ .div3{
+    background-color: blue;
+    grid-area: four;
+
+ }
+ .div4{
+    background-color: red;
+    grid-area: five;
+ }
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde minus eaque numquam maxime atque tenetur adipisci! Nemo similique quibusdam quas sed fuga neque, possimus iure facere labore mollitia dolore.</div>
+    <div class="div1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio, nemo porro saepe corporis explicabo ad temporibus, quia incidunt vitae, nostrum eaque modi asperiores ipsum officiis quisquam amet minus unde.</div>
+    <div class="div2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic ullam repudiandae quidem odit est, nesciunt iusto voluptates perspiciatis vel omnis harum doloremque consequuntur quod aliquid, officiis esse quibusdam nemo aperiam!</div>
+    <div class="div3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ut quos architecto beatae a. Animi dolorem voluptas deserunt nisi, maxime delectus illum eaque! Saepe, vero officia sequi cumque quam facilis.</div>
+    <div class="div4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, voluptatum adipisci necessitatibus a enim tempora minima ab praesentium nesciunt fugit commodi aperiam et aspernatur corporis accusamus incidunt hic voluptates quasi!</div>
+    
+</body>
+</html>

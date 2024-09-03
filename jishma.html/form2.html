@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2><label for="name">Name: </label>
+        <input type="text" required placeholder="Enter your name"></h2>
+
+    <h2><label for="email">email:</label>
+        <input type="email" required placeholder="Enter your email"></h2>
+        <h2><label for="password">Password:</label>
+            <input type="password" required placeholder="Enter your password"></h2>
+            <h2><label for="age">Age:</label>
+                <input type="number" required placeholder="Enter your age" min="18" max="20" step="2"></h2>
+                <h2><label for="profile picture">Profile picture:</label>
+                    <input type="file" required placeholder="profile picture"></h2>
+                    <h2><label for="aboutme">Aboutme:</label>
+                        <textarea rows="3" name="aboutme"readonly placeholder="write a short bio about your self"  style="vertical-align:top;"></textarea></h2><br>
+                        <button type="submit" style="width: 100px;height: 50px;margin-left: 115px;">Submit</button>
+    
+</body>
+</html>

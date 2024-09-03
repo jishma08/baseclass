@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-iteration-count: infinite ;
+        position: relative;
+        transition-timing-function: linear;
+        text-align: center;
+        border-radius: 50px;
+        line-height: 100px;
+
+        
+        }
+        @keyframes move{
+            0%{
+                top: 0px;
+                left: 0px;
+                
+
+
+            }
+            25%{
+                top: 0px;
+                 left: 200px;
+                 background-color: blue;
+                
+            }
+            50%{
+                top: 0px;
+                left: 300px;
+                background-color: green;
+                rotate: 90deg;
+                
+                
+            }
+            75%{
+                left: 200px;
+                top: 0px;
+                rotate: 360deg;
+                
+                
+
+            }
+            100%{
+                left: 0px;
+                top: 0px;
+                rotate: 360deg;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><div>box1</div>
+            </td>
+        </tr>
+        <tr>
+            <td><div>box2</div></td>
+        </tr>
+        <tr>
+            <td><div>box3</div></td>
+        </tr>
+        <tr>
+            <td><div>box4</div></td>
+        </tr>
+        <tr>
+            <td><div>box5</div></td>
+        </tr>
+    </table>
+    
+    
+</body>
+</html>
